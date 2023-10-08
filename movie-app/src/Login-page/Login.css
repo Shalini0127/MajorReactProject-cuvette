@@ -1,0 +1,104 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Single+Day&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200;9..40,300;9..40,400;9..40,500;9..40,600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Single+Day&display=swap');
+
+* {
+    /* background-color: aqua; */
+    padding: 0;
+    margin: 0;
+}
+
+.Styling {
+    display : flex;
+    color: aliceblue;
+}
+
+.Styling img {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.imageclass{
+    /* border : 5px green solid; */
+   height: 100vh;
+  
+}
+
+.img1{
+    height: 100vh;
+    width: 50vw;
+}
+
+.maindiv{
+    /* border : 5px red solid; */
+    height : 100vh;
+    width : 100vw;
+}
+
+.Super{
+    align-items: center;
+    text-align: center;
+    background-color: black;
+}
+
+.Super h1{
+    color: #72DB73;
+    margin-bottom: 10px;
+    margin-top: 5rem;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Single Day', cursive;
+}
+
+.Super p{
+    font-family: 'DM Sans', sans-serif;
+}
+
+.form-box {
+    display: flex;
+    justify-content: center;
+    min-width: 15rem;
+    position: relative;
+  }
+
+  .form-box label {
+    display: block;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    margin: 0 0 2vh 0;
+  }
+
+  .form-box input {
+    background-color: #292929;
+  display: block;
+  width: 100%;
+  padding: 0.5rem 0.8rem 0.5rem 0.8rem;
+  margin: 0.9vw 0;
+  border: 0;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.Para1{
+    text-align: start;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    margin: 15px;
+    margin-left: 5rem;
+    /* line-height: 22.51; */
+    letter-spacing: 2%;
+    /* margin-top: 25px; */
+}
+.Para2{
+    text-align: start;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    margin: 15px;
+    margin-left: 5rem;
+    /* line-height: 22.51; */
+    letter-spacing: 2%;
+    /* margin-top: 25px; */
+}

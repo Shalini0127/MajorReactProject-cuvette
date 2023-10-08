@@ -1,0 +1,1 @@
+import "../Category-page/Page.css"
